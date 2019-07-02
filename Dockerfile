@@ -1,4 +1,4 @@
-FROM python:onbuild
+FROM python:latest
 COPY requirements.txt .
 ENV PORT 8080
 EXPOSE 8080
